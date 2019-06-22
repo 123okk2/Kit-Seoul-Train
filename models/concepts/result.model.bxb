@@ -1,0 +1,16 @@
+structure (Result){
+  property (to){
+    type(ToStation)
+    min (Required) max (One)
+  }
+  
+  property (des){
+    type (DesStation)
+    min (Required) max (One)
+  }
+  
+  property (result){
+    type(TimeOutput)
+    min (Required) max (One)
+  }
+}

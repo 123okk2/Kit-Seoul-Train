@@ -1,0 +1,16 @@
+action (findRoute) {
+  description (Function to Search Routing Time)
+  type(Calculation)
+  collect {
+    input (toStation) {
+      type (ToStation)
+      min (Required) max (One)
+    }
+    
+    input (desStation){
+      type (DesStation)
+      min (Required) max (One)
+    }
+  }
+  output (Result)
+}
