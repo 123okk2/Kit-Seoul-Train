@@ -1,11 +1,3 @@
-structure (DesResult){
-    property (des){
-      type(DesStation)
-      min (Required)
-    }
-    
-    property (desLine){
-      type(DesSubwayLine)
-      min(Required)
-    }
-  }
+text (DesResult) {
+  description (Station Name to arrive)
+}

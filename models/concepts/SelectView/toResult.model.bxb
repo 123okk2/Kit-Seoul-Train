@@ -1,11 +1,3 @@
-structure (ToResult){
-    property (to){
-      type(ToStation)
-      min (Required)
-    }
-    
-    property (toLine){
-      type(ToSubwayLine)
-      min (Required)
-    }
-  }
+text (ToResult) {
+  description (Station Name to arrive)
+}

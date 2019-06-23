@@ -4,8 +4,10 @@ module.exports.function = function runAPI (station) {
   var config = require('config');
   var console = require('console');
   
-  var encodedTo = encodeURI( station.toList.to );
-  var encodedDes = encodeURI ( station.desList.des );
+  console.log(typeof(station.toList.to));
+  
+  var encodedTo = encodeURI( String(station.toList.to[0]) );
+  var encodedDes = encodeURI ( String(station.desList.des[0]) );
   
   var url = "http://swopenapi.seoul.go.kr/api/subway/sample/json/realtimeStationArrival/0/5/" + encodedTo; 
   
@@ -18,9 +20,11 @@ module.exports.function = function runAPI (station) {
   
   var runTime = parseInt(mainJson.status);
 
+  console.log(station.toList.to[0], station.toList.des[0])
+  
   return {
-    to : toStation,
-    des : desStation,
+    to : station.toList.to[0],
+    des : station.desList.des[0],
     result : runTime
   }
 }

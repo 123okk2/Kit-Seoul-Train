@@ -1,8 +1,9 @@
 layout-macro-def (select_station) {
   params {
-    param (info){
-      type(StationResult)
+    param (toList){
+      type(ToResult)
       min (Required)
+      max (One)
     }
   }
 
@@ -11,7 +12,7 @@ layout-macro-def (select_station) {
       slot2{
         content{
           order (PrimarySecondary)
-          primary("#{value(info.toList.toLine)} #{value(info.toList.to)}")
+          primary("#{value(toList)}")
         }
       }
     }

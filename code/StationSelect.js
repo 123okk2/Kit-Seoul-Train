@@ -11,6 +11,8 @@ module.exports.function = function stationSelect (toStation, desStation) {
   
   let toRecogList = stationFilter(forApiToStation);
   let desRecogList = stationFilter(forApiDesStation);
+    
+  console.log(toRecogList, desRecogList);
   
   return {
     toList : toRecogList,

@@ -1,5 +1,5 @@
 train (t-61uqf46nqiw7tnn7svimsc9ur) {
-  utterance ("[g:Result] (뚝섬)[v:ToStation]에서 (춘의)[v:DesStation]까지 얼마 걸려")
-  plan (Y2BjUCnISaxML8ovzUvRK84syqxMjC9OzS/NiS8pSszM0wtKLS7NKWFQx68qLTMvJSi/tCSVQRu/wuCSxJLM/DyoqQQUF6cmFiVnQLUwaOBX7JJaDFNJwLEh+TCFrAyMDEwMzAwsQBYDlM0MpBnAGASYgRgsCwA=)
-  last-modified (1561284585155)
+  utterance ("[g:StationResult] (뚝섬)[v:ToStation]에서 (춘의)[v:DesStation]까지 얼마 걸려")
+  plan (Y2Bh0C7ISaxML8ovzUvRK84syqxMjC9OzS/NiS8pSszM0wsuSSzJzM8LSi0uzSkhpLg4NbEoOQOqhUEDv2KX1GKYSnX8KkPyYQqZGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561300935925)
 }

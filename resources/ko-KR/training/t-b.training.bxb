@@ -1,5 +1,5 @@
 train (t-byyskvuxawd9bii8ss3vvxobj) {
-  utterance ("[g:Result] (잠실)[v:ToStation]에서 (강변)[v:DesStation]까지 얼마나 걸려")
+  utterance ("[g:Result:continue:StationResult] (잠실)[v:ToStation]에서 (강변)[v:DesStation]까지 얼마나 걸려")
   plan (Y2BjUCnISaxML8ovzUvRK84syqxMjC9OzS/NiS8pSszM0wtKLS7NKWFQx68qLTMvJSi/tCSVQRu/wuCSxJLM/DyoqQQUF6cmFiVnQLUwaOBX7JJaDFNJwLEh+TCFrAyMDEwMzAwsQBYDlM0MpBnAGASYgRgsCwA=)
-  last-modified (1561284593412)
+  last-modified (1561299433301)
 }

@@ -2,12 +2,12 @@ result-view {
   match: Result(this)
   
   message {
-    template ("결과 값을 확인하여 보세요.")
+    template (결과 값을 확인하여 보세요.)
   }
   
   render {
-    layout-macro (result_details) {
-      param (info) {
+    layout-macro (result_details){
+      param (info){
         expression (this)
       }
     }

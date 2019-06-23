@@ -1,5 +1,8 @@
 structure (Result)
 {
+  features{
+    transaction
+  }
   property (to){
     type(ToResult)
     min (Required) max (One)

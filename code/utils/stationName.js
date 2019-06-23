@@ -1,4 +1,4 @@
-module.exports = function station(input, tag){
+module.exports = function station(input){
   const dicFile = require("../data/dictStation.js");
   const word = String(input);
   var res = new Array;
@@ -10,12 +10,8 @@ module.exports = function station(input, tag){
     keywords.some(function(key) {
       let trigger = key.indexOf(word) != -1;
       
-      if (trigger){
-        if (tag == 'to')
-          res.push( { to : item.name, toLine : item.line});
-        else
-          res.push( { des : item.name, desLine : item.line});
-      }
+      if (trigger)
+          res.push( item.name);
          
       return trigger;    
     });
