@@ -1,0 +1,13 @@
+structure (StationResult)
+{
+  property (toList){
+    type(ToResult)
+    min (Required) max (Many)
+  }
+  
+  property (desList){
+    type(DesResult)
+    min (Required) max (Many)
+  }
+}
+

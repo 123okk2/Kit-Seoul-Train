@@ -1,0 +1,19 @@
+layout-macro-def (select_station) {
+  params {
+    param (info){
+      type(StationResult)
+      min (Required)
+    }
+  }
+
+  content{
+    cell-card{
+      slot2{
+        content{
+          order (PrimarySecondary)
+          primary("#{value(info.toList.toLine)} #{value(info.toList.to)}")
+        }
+      }
+    }
+  }
+}

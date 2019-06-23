@@ -1,4 +1,3 @@
-// 결과를 화면에 보여주는 방식을 설정하는 파일 (https://bixbydevelopers.com/dev/docs/reference/type/result-view)
 result-view {
   match: Result(this)
   

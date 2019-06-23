@@ -1,0 +1,16 @@
+action (searchStation) {
+  description (searching related station of user's input)
+  type(Calculation)
+  collect {
+    input (toStation) {
+      type (ToStation)
+      min (Required) max (One)
+    }
+    
+    input (desStation){
+      type (DesStation)
+      min (Required) max (One)
+    }
+  }
+  output (StationResult)
+}

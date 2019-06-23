@@ -1,0 +1,11 @@
+structure (ToResult){
+    property (to){
+      type(ToStation)
+      min (Required)
+    }
+    
+    property (toLine){
+      type(ToSubwayLine)
+      min (Required)
+    }
+  }

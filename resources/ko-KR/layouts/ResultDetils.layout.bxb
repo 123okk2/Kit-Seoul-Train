@@ -5,6 +5,7 @@ layout-macro-def (result_details) {
       min (Required) max (One)
     }
   }
+  
   content {
     cell-card {
       slot2 {

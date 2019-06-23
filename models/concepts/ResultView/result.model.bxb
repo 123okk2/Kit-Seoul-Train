@@ -1,12 +1,12 @@
 structure (Result)
 {
   property (to){
-    type(ToStation)
+    type(ToResult)
     min (Required) max (One)
   }
 
   property (des){
-      type (DesStation)
+      type (DesResult)
     min (Required) max (One)
   }
 
