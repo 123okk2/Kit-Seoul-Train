@@ -19,7 +19,7 @@ structure (Result)
     type (Transfer)
     min(Optional) max(Many)
   }
-  
+
   property (result){
    type(TimeOutput)
    min (Required) max (One)

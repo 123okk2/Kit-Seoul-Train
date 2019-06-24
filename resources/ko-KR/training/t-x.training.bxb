@@ -1,5 +1,0 @@
-train (t-x7md2v1qe2lbrdvwrmah0oht1) {
-  utterance ("[g:Result] (동묘앞)[v:ToStation] 에서 (창동)[v:DesStation]까지 얼마나 걸려")
-  plan (Y2BhUCnISaxML8ovzUvRK84syqxMjC9OzS/NiS8pSszM0wtKLS7NKWFQx68qLTMvJSi/tCSVQQO/QpfU4uCSxJLM/DxCRobkwxQyMzAyMAFJBiANghAA4oNFAQ==)
-  last-modified (1561275111969)
-}

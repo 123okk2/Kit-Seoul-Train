@@ -1,5 +1,0 @@
-train (t-aq9tn900ip554jd61975d97dr) {
-  utterance ("[g:Result] (뚝섬)[v:ToStation]에서 (춘의역)[v:DesStation] 까지 얼마나 걸려")
-  plan (Y2BhUCnISaxML8ovzUvRK84syqxMjC9OzS/NiS8pSszM0wtKLS7NKWFQx68qLTMvJSi/tCSVQQO/QpfU4uCSxJLM/DxCRobkwxQyMzAyMAFJBiANghAA4oNFAQ==)
-  last-modified (1561284047863)
-}

@@ -1,5 +1,0 @@
-train (t-51w1dplv44cdred1h3l48um0x) {
-  utterance ("[g:Result] (김포공항)[v:ToStation] 에서 (서울역)[v:DesStation]까지 얼마나 걸려")
-  plan (Y2BhUCnISaxML8ovzUvRK84syqxMjC9OzS/NiS8pSszM0wtKLS7NKWFQx68qLTMvJSi/tCSVQQO/QpfU4uCSxJLM/DxCRobkwxQyMzAyMAFJBiANghAA4oNFAQ==)
-  last-modified (1561287256691)
-}

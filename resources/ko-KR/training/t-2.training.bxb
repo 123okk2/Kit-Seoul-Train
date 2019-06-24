@@ -1,5 +1,0 @@
-train (t-2jnb5x9ykt6ns8fo9g7v9ee99) {
-  utterance ("[g:Result] (낙성대)[v:ToStation] 에서 (서울역)[v:DesStation]까지 얼마나 걸려")
-  plan (Y2BhkM3OLNErzizKrEyML07NL82JLylKzMzTC0otLs0pYVDAIZ2WmZcSlF9aksqgiEOFS2pxcEliSWZ+Hk5DQvJhKpgZGBmYgCQDkAZBCADxwaIA)
-  last-modified (1561375309910)
-}

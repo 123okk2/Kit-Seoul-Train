@@ -1,5 +1,0 @@
-train (t-mxhc61p5jcdaa1v9dz8wtd2jx) {
-  utterance ("[g:Result] (강남역)[v:ToStation]에서 (건대입구)[v:DesStation]까지 얼마나 걸려")
-  plan (Y2BhUCnISaxML8ovzUvRK84syqxMjC9OzS/NiS8pSszM0wtKLS7NKWFQx68qLTMvJSi/tCSVQQO/QpfU4uCSxJLM/DxCRobkwxQyMzAyMAFJBiANghAA4oNFAQ==)
-  last-modified (1561275111159)
-}

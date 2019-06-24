@@ -1,5 +1,5 @@
-train (t-0wnkgcxf0xw4giiugwjdn4qcz) {
-  utterance ("[g:Result] (삼성역)[v:ToStation]에서 (수서역)[v:DesStation]은 어떻게 가지?")
-  plan (Y2BhkM3OLNErzizKrEyML07NL82JLylKzMzTC0otLs0pYVDAIZ2WmZcSlF9aksqgiEOFS2pxcEliSWZ+Hk5DQvJhKpgZGBmYgCQDkAZBCADxwaIA)
-  last-modified (1561375411224)
+train (t-01wpb9kbfygwc3nqtoguxxk8z) {
+  utterance ("[g:Result] (낙성대역)[v:ToStation]에서 (강남역)[v:DesStation] 까지 얼마나 걸려")
+  plan (Y2BhEMvOLNErTs0vzYkvKUrMzNMLSi0uzSlhkEQXT8vMSwnKLy1JZZBCl3JJLQ4uSSzJzM/D1BaSD5NiZmBkYAKSDEAaBCEAxAeLAgA=)
+  last-modified (1561379965763)
 }

@@ -3,17 +3,8 @@ module.exports.function = function runAPI (toStation, desStation) {
   var config = require('config');
   var console = require('console');
   
-   var forApiToStation = toStation[toStation.length-1] == '역' ? 
-       forApiToStation = toStation.substr(0, toStation.length-1) : toStation;
-
-   var forApiDesStation = desStation[desStation.length-1] == '역' ?
-       forApiDesStation = desStation.substr(0, desStation.length-1) : desStation;
-  
-  if(forApiToStation == '춘의') forApiToStation = '춘의역';
-  if(forApiDesStation == '춘의') forApiDesStation = '춘의역';
-  
-  var encodedTo = encodeURI( forApiToStation );
-  var encodedDes = encodeURI ( forApiDesStation );
+  var encodedTo = encodeURI( toStation );
+  var encodedDes = encodeURI ( desStation );
  
    //----------------------상하행 및 소요시간, 환승역 수
   var getTimeURL = 'http://swopenapi.seoul.go.kr/api/subway/476b5764513132333132316f72546449/json/shortestRoute/0/5/'+encodedTo+'/'+encodedDes+'/';
@@ -77,16 +68,9 @@ module.exports.function = function runAPI (toStation, desStation) {
  }
  console.log(transferInfo)
   
-  if(forApiToStation == '서울'){
-    forApiToStation = '서울역';
-    encodedTo = encodeURI( forApiToStation );
-  }
-  if(forApiDesStation == '서울'){
-   forApiDesStation = '서울역';
-    encodedDes = encodeURI ( forApiDesStation );
-  }
-  
-  
+  encodedTo = toStation == '서울' ? encodeURI('서울역') : toStation;
+  encodedDes = desStation == '서울' ? encodeURI('서울역') : desStation;
+
   //--------------------------역명 to 코드
   var codeUrl = "http://openAPI.seoul.go.kr:8088/476b5764513132333132316f72546449/json/SearchInfoBySubwayNameService/1/100/"+encodedTo+"/";
   var codeArr = [];
@@ -162,8 +146,8 @@ module.exports.function = function runAPI (toStation, desStation) {
   
   
   return {
-    to : forApiToStation,
-    des : forApiDesStation,
+    to : toStation,
+    des : desStation,
     result : needTime,
     start : startTime,
     transfer : transferInfo
