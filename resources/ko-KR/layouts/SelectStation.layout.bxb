@@ -1,7 +1,7 @@
 layout-macro-def (select_station) {
   params {
-    param (toList){
-      type(ToResult)
+    param (stationResult){
+      type(StationResult)
       min (Required)
       max (One)
     }
@@ -9,10 +9,15 @@ layout-macro-def (select_station) {
 
   content{
     cell-card{
+      on-click{
+        intent{
+          goal: StationResult
+        }
+      }
       slot2{
         content{
           order (PrimarySecondary)
-          primary("#{value(toList)}")
+          primary("#{value(stationResult.toList)}")
         }
       }
     }

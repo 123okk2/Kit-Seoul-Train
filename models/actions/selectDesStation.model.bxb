@@ -1,0 +1,18 @@
+action (selectDesStation) {
+  description (select Des Station)
+  type(Calculation)
+  
+  collect {
+    input (toResult) {
+      type (ToResult)
+      min (Required) max (One)
+    }
+    
+    input (desList){
+      type (DesResult)
+      min (Required) max (One)
+    } 
+  }
+  
+  output (StationResult)
+}

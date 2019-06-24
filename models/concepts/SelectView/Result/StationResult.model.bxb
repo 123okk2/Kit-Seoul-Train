@@ -1,9 +1,5 @@
 structure (StationResult)
 {
-  features{
-    transaction
-  }
-  
   property (toList){
     type(ToResult)
     min (Required) max (Many)

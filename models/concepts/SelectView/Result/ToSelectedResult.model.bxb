@@ -1,0 +1,12 @@
+structure (ToSelectedResult)
+{
+  property (toStation){
+    type(ToStation)
+    min (Required) max (One)
+  }
+  
+  property (desList){
+    type(DesResult)
+    min (Required) max (Many)
+  }
+}

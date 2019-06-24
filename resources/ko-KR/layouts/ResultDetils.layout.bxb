@@ -1,7 +1,7 @@
 layout-macro-def (result_details) {
   params {
     param (info) {
-      type (Result)
+      type (StationResult)
       min (Required) max (One)
     }
   }
@@ -11,7 +11,7 @@ layout-macro-def (result_details) {
       slot2 {
           content {
             order (PrimarySecondary)
-          primary ("#{value(info.to)} 에서 #{value(info.des)} 까지는 #{value(info.result)}분 소요됩니다.")
+          primary ("#{value(info.toList)}")
           }
         }
      }
