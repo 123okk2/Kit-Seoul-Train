@@ -1,0 +1,16 @@
+description {
+  displayName (수도권 지하철 정보)
+  companyName (SE_Train)
+  iconUrl (/LOGO/train_logo.jpg)
+  description ("지하철 정보는 여러분에게 수도권 지하철 정보를 제공합니다.")
+  websiteUrl (https://example.com/)
+  termsUrl (https://example.com/terms-of-use/)
+  
+  dispatch-name (수도권 지하철 정보)
+  dispatch-aliases {
+  alias(수도권지하철정보)
+  alias(수도권지하철)
+  alias(지하철정보)
+  alias(지하철 정보)
+  }
+}

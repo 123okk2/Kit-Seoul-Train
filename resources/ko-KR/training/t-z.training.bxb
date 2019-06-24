@@ -1,0 +1,5 @@
+train (t-zdab3nvxlh6ryh315jpkn1m2s) {
+  utterance ("[g:Result] (한남역)[v:ToStation]에서 (사평역)[v:DesStation]까지 얼마나 걸릴까?")
+  plan (Y2BhkM3OLNErzizKrEyML07NL82JLylKzMzTC0otLs0pYVDAIZ2WmZcSlF9aksqgiEOFS2pxcEliSWZ+Hk5DQvJhKpgZGBmYgCQDkAZBCADxwaIA)
+  last-modified (1561375396139)
+}

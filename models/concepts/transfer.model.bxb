@@ -1,0 +1,12 @@
+structure (Transfer) {
+  description (__DESCRIPTION__)
+  
+   property (transferStation){
+    type(TransferStation)
+    min (Optional) max (One)
+  }
+  property (transferLine){
+    type(TransferLine)
+    min (Optional) max (One)
+  }
+}

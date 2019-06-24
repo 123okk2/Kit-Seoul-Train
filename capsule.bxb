@@ -1,0 +1,22 @@
+capsule {
+
+  id (kit.seoul_train)
+  version (1.0.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US) {enabled (true)}
+    target (bixby-mobile-ko-KR)
+  }
+  runtime-flags {
+    concepts-inherit-super-type-features
+    modern-prompt-rejection
+    support-halt-effect-in-computed-inputs
+  }
+  capsule-imports {
+    import (viv.core) { as (core) }
+  }
+  store-sections {
+section (Local)
+section(TravelAndTransportation)
+  }
+}

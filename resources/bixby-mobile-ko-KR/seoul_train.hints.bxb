@@ -1,0 +1,9 @@
+hints {
+  uncategorized {
+    utterance (낙성대역에서 강남역 까지 얼마나 걸려?)
+    utterance (한남역에서 사평역까지 얼마나 걸릴까?)
+    utterance (한양대역에서 신금호역까지 얼마나걸려?)
+    utterance (삼성역에서 수서역까지는 얼마나 걸려?)
+    utterance (도곡역에서 명동역까지 얼마나 걸려?)
+  }
+}
