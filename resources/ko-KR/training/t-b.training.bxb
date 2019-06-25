@@ -1,5 +1,5 @@
 train (t-byyskvuxawd9bii8ss3vvxobj) {
   utterance ("[g:StationResult] (잠실)[v:ToStation]에서 (강변)[v:DesStation]까지 얼마나 걸려")
   plan (Y2Bh0C7ISaxML8ovzUvRK84syqxMjC9OzS/NiS8pSszM0wsuSSzJzM8LSi0uzSkhpLg4NbEoOQOqhUEDv2KX1GKYSnX8KkPyYQqZGRgZmIAkA5AGQQgA8cGiAA==)
-  last-modified (1561373578322)
+  last-modified (1561375164543)
 }

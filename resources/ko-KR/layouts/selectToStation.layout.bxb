@@ -19,8 +19,8 @@ layout-macro-def (select_to_station) {
         intent{
           goal: ToSelectedResult
           value: ToSelectedResult{
-            toStation: ToStation( toResult )
-            desList: DesResult( desResult )
+            toStation: ToStation$expr(toResult)
+            desList: DesResult$expr(desResult)
           }
         }
       }

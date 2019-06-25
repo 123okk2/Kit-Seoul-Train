@@ -1,16 +1,23 @@
 structure (Result)
 {
-  features{
-    transaction
-  }
   property (to){
-    type(ToResult)
+    type(ToStation)
     min (Required) max (One)
   }
 
   property (des){
-      type (DesResult)
+      type (DesStation)
     min (Required) max (One)
+  }
+
+  property (start){
+    type (StartTime)
+    min(Required) max(Many)
+  }
+  
+  property (transfer){
+    type (Transfer)
+    min(Optional) max(Many)
   }
 
   property (result){
@@ -18,4 +25,3 @@ structure (Result)
    min (Required) max (One)
   }
 }
-

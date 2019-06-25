@@ -13,7 +13,7 @@ result-view{
                 param (toStation){
                   expression (toStation)
                 }
-                param (desResult){
+                param (desStation){
                   expression (desList)
                 }
               }

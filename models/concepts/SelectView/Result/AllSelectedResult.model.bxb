@@ -6,7 +6,7 @@ structure (AllSelectedResult)
   }
   
   property (desStation){
-    type(DesResult)
+    type(DesStation)
     min (Required) max (One)
   }
 }

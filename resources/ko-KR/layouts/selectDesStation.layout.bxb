@@ -6,8 +6,8 @@ layout-macro-def (select_des_station) {
       max (One)
     }
     
-    param (desResult){
-      type(DesResult)
+    param (desStation){
+      type(DesStation)
       min (Required)
       max (One)
     }
@@ -17,16 +17,17 @@ layout-macro-def (select_des_station) {
     cell-card{
       on-click{
         intent{
-          goal: AllSelectedResult
-          value-set : ToSelectedResult
-          value: ToStation(toResult)
-          value: DesResult(desList)
+          goal: findRoute
+          value: AllSelectedResult{
+            toStation: ToStation$expr(toStation)
+            desStation: DesStation$expr(desStation)
+          }
         }
       }
       slot2{
         content{
           order (PrimarySecondary)
-          primary("#{value(toStation)} #{value(desResult)}")
+          primary("#{value(desStation)}")
         }
       }
     }

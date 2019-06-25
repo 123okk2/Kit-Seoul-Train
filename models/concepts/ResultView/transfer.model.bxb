@@ -1,0 +1,12 @@
+structure (Transfer) {
+  description (Subway Transfer Structure)
+  
+   property (transferStation){
+    type(TransferStation)
+    min (Optional) max (One)
+  }
+  property (transferLine){
+    type(TransferLine)
+    min (Optional) max (One)
+  }
+}

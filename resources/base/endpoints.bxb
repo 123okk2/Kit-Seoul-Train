@@ -6,7 +6,7 @@ endpoints {
     }
    
     action-endpoint (findRoute) {
-      accepted-inputs (station)
+      accepted-inputs (selectedStation)
       local-endpoint (runAPI.js)
     }
   
