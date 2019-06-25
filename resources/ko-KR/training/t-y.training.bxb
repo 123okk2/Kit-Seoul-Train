@@ -1,0 +1,5 @@
+train (t-yk4emxfbvb54uxmnl9umahne2) {
+  utterance ("[g:StationResult] (서울역)[v:ToStation]에서 (용산)[v:DesStation]까지 얼마나 걸려")
+  plan (Y2BhUCnISaxML8ovzUvRK07NLy2JLylKzMzTCy5JLMnMzwtKLS7NKcGpqjg1sSg5A6qWQRGHKpfUYpgSBRxKQvJhKpgZGBmYgCQDkAZBCADxwaIA)
+  last-modified (1561435504683)
+}

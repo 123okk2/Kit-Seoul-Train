@@ -1,7 +1,7 @@
 capsule {
 
-  id (playground.siriya_seoul_train)
-  version (0.1.0)
+  id (kit.seout_train)
+  version (1.0.0)
   format (3)
   targets {
     target (bixby-mobile-en-US) {enabled (true)}
