@@ -5,147 +5,109 @@ layout-macro-def (result_details) {
       min (Required) max (One)
     }
   }
+  
   content {
-    section {
+      section {
+            content {
+                  hbox{
+                    content{
+                        vbox {
+                             grow(5)
+                             halign (Center)
+                     content {
+                        single-line {
+                                  text {
+                                    style(Detail_L)
+                                    value ("#{value(info.to)}역 에서 #{value(info.des)}역 까지")
+                                }
+                              }
+                           }
+                        }
+                     }
+                  }
+              hbox{
+            content{
+              vbox {
+                    grow(5)
+                    halign (Center)
           content {
-        hbox{
-          content{
-            vbox {
-                 grow(5)
-                  halign (Center)
-        content {
-            single-line {
-                      text {
-                        style(Detail_L)
-                    value ("#{value(info.to)}역 에서 #{value(info.des)}역 까지")
-                        
-                }
-            }
-        }
-        }
+              single-line {
+                        text {
+                          style(Detail_L)
+                      value ("최단시간 기준 #{value(info.result)}분 소요됩니다.")
+
+                  }
+              }
           }
-        }
-            hbox{
-          content{
-            vbox {
-                  grow(5)
-                  halign (Center)
-        content {
-            single-line {
-                      text {
-                        style(Detail_L)
-                    value ("최단시간 기준 #{value(info.result)}분 소요됩니다.")
-                        
+          }
                 }
+              }
+              hbox{
+            content{
+              vbox {
+                  grow(5)
+                    halign (Center)
+          content {
+              single-line {
+                        text {
+                          style(Detail_L)
+                      value ("#{value(info.to)}역 열차출발 시간은 #{value(info.start[0])}입니다.")
+
+                  }
+              }
+          }
+          }
             }
-        }
-        }
+          }
+          
+          cell-area{
+
+            slot2{
+              content{
+                order(SecondaryPrimary)
+              secondary("#{value(info.to)}역 출발시간 (#{value(info.startLine)})")
               }
             }
-            hbox{
-          content{
-            vbox {
-                grow(5)
-                  halign (Center)
-        content {
-            single-line {
-                      text {
-                        style(Detail_L)
-                    value ("#{value(info.to)}역 열차도착시간은 #{value(info.start[0])}입니다.")
-                        
-                }
-            }
-        }
-        }
           }
-        }
-        hbox{
-          content{
-            vbox {
-               
-        content {
-            single-line {
-                      text {
-                        
-                    value ("\n")
-                        
-                }
-            }
-        }
-        }
-          }
-        }
-        hbox{
-          content{
-            vbox {
-        content {
-            single-line {
-                      text {
-                      
-                    value ("\n")
-                        
-                }
-            }
-        }
-        }
-          }
-        }
-      
-        
-        cell-area{
-     
-          slot2{
-            content{
-              order(SecondaryPrimary)
-              secondary("#{value(info.to)}역 출발시간")
-            }
-          }
-        }
-        
-        for-each (info.start){
-          as(i){
-        
-            cell-card{
-    
-    slot2 {
-        content {
-            order (PrimarySecondary)
-        
-            primary ("#{value(info.start[i])}") // Fields of America for Fall
-        }
-    }
-}
-          }
-        }
-        
-         
-        
-        
-        cell-area{
-     
-          slot2{
-            content{
-              order(SecondaryPrimary)
-              secondary("환승정보")
-            }
-          }
-        }
-        for-each (info.transfer){
-          as(i){
-           cell-card{
-    
-    slot2 {
-        content {
-            order (PrimarySecondary)
-        
-            primary ("#{value(info.transfer[i].transferStation)}역 >>> #{value(info.transfer[i].transferLine)}") // Fields of America for Fall
-        }
-    }
-}
-        }
-        }
-     }
-  }
-  }
 
+          for-each (info.start){
+            as(i){
+
+              cell-card{
+                  slot2 {
+                      content {
+                          order (PrimarySecondary)
+
+                          primary ("#{value(info.start[i])}") // Fields of America for Fall
+                      }
+                  }
+              }
+            }
+          }
+        if(size(info.transfer) > 0){
+          cell-area{
+
+            slot2{
+              content{
+                order(SecondaryPrimary)
+                secondary("환승정보")
+              }
+            }
+          }
+          for-each (info.transfer){
+                      as(i){
+                       cell-card{
+                            slot2 {
+                                content {
+                                    order (PrimarySecondary)
+                                    primary ("#{value(info.transfer[i].transferStation)}역 >>> #{value(info.transfer[i].transferLine)}") // Fields of America for Fall
+                                }
+                            }
+                          }
+                        }
+          }
+        } 
+       }
+    }
+    }
 }

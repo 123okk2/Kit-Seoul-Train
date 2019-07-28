@@ -1,9 +1,9 @@
 hints {
   uncategorized {
-    utterance (낙성대역에서 강남역 까지 얼마나 걸려?)
-    utterance (한남역에서 사평역까지 얼마나 걸릴까?)
-    utterance (한양대역에서 신금호역까지 얼마나걸려?)
-    utterance (삼성역에서 수서역까지는 얼마나 걸려?)
-    utterance (도곡역에서 명동역까지 얼마나 걸려?)
+    utterance (강남역에서 낙성대역까지 얼마나 걸려?)
+    utterance (낙성대역 갈려면 매봉역에서 언제 타야 돼?)
+    utterance (광화문 갈건데 건대입구역 지하철 도착시간이 언제야?)
+    utterance (낙성대역에서 서울역까지 가고싶어)
+    utterance (신촌역으로 갈 건데 광화문에서 출발할거야)
   }
 }

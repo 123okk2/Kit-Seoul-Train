@@ -1,16 +1,20 @@
-description {
-  displayName (수도권 지하철 정보)
-  companyName (SE_Train)
-  iconUrl (/LOGO/train_logo.jpg)
-  description ("지하철 정보는 여러분에게 수도권 지하철 정보를 제공합니다.")
-  websiteUrl (https://example.com/)
-  termsUrl (https://example.com/terms-of-use/)
+capsule-info {
+  display-name (수도권 지하철 정보)
+  developer-name (KIT_SE)
+  icon-asset (/LOGO/train_logo.jpg)
+  description (지하철 정보는 여러분에게 수도권 지하철 정보를 제공합니다. 현재 서울시에서 제공하는 데이터의 누락으로 우이신설,서해선,신분당(광교-동천) 노선은 출발역 혹은 도착역으로 설정 하실 수 없습니다.)
   
-  dispatch-name (수도권 지하철 정보)
+  
+  dispatch-name (빅스웨이)
   dispatch-aliases {
-  alias(수도권지하철정보)
-  alias(수도권지하철)
-  alias(지하철정보)
-  alias(지하철 정보)
+  alias(빅스 웨이)
+  }
+  
+  search-keywords{
+    keyword (지하철)
+    keyword(subway)
+    keyword(서울)
+    keyword(수도권)
+    keyword(정보)
   }
 }

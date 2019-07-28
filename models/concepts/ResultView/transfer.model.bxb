@@ -1,5 +1,5 @@
 structure (Transfer) {
-  description (__DESCRIPTION__)
+  description (Subway Transfer Structure)
   
    property (transferStation){
     type(TransferStation)

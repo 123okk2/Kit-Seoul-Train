@@ -2,13 +2,8 @@ action (findRoute) {
   description (Function to Search Routing Time)
   type(Search)
   collect {
-    input (toStation) {
-      type (ToStation)
-      min (Required) max (One)
-    }
-    
-    input (desStation){
-      type (DesStation)
+    input (selectedStation) {
+      type (AllSelectedResult)
       min (Required) max (One)
     }
   }

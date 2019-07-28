@@ -1,8 +1,14 @@
 endpoints {
   action-endpoints {
-    action-endpoint (findRoute) {
+     action-endpoint (searchStation){
       accepted-inputs (toStation, desStation)
+      local-endpoint (StationSelect.js)
+    }
+   
+    action-endpoint (findRoute) {
+      accepted-inputs (selectedStation)
       local-endpoint (runAPI.js)
     }
+  
   }
 }

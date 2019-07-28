@@ -1,0 +1,26 @@
+result-view{
+  match: ToSelectedResult(result)
+ 
+  message(도착역을 선택해주세요)
+  
+  render{
+    layout{
+      section{
+        content{
+          for-each (result.desList){
+            as(desList){
+              layout-macro (select_des_station){
+                param (toStation){
+                  expression (toStation)
+                }
+                param (desStation){
+                  expression (desList)
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

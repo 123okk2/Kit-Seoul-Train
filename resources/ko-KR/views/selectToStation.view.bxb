@@ -1,0 +1,26 @@
+result-view{
+  match: StationResult(result)
+  
+  message(출발역을 선택해주세요)
+  
+  render{   
+    layout{
+      section{
+        content{
+          for-each (result.toList){
+            as(toList){
+              layout-macro (select_to_station){
+                param (toResult){
+                  expression (toList)
+                }
+                param (desResult){
+                  expression (desList)
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

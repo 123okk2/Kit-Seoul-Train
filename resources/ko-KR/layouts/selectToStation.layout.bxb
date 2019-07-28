@@ -1,0 +1,35 @@
+layout-macro-def (select_to_station) {
+  params {
+    param (toResult){
+      type(ToResult)
+      min (Required)
+      max (One)
+    }
+    
+    param (desResult){
+      type(DesResult)
+      min (Required)
+      max (Many)
+    }
+  }
+
+  content{
+    cell-card{
+      on-click{
+        intent{
+          goal: ToSelectedResult
+          value: ToSelectedResult{
+            toStation: ToStation$expr(toResult)
+            desList: DesResult$expr(desResult)
+          }
+        }
+      }
+      slot2{
+        content{
+          order (PrimarySecondary)
+          primary("#{value(toResult)}")
+        }
+      }
+    }
+  }
+}
