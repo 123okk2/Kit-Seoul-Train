@@ -22,16 +22,22 @@
 
 ## How to Use
 ---
- > 가능에서 광교까지 얼마나 걸려
+ * 입력 **가능**에서 **광교**까지 얼마나 걸려
 
  > 결과값이 1개인 경우
+ 
+  ![screenshot-2019-07-28T05-41-07 000Z-bixby-mobile-ko-KR-device-note](https://user-images.githubusercontent.com/38457114/62002902-572f7380-b148-11e9-9aa3-dd9cf1e7f7ff.png)
 
  > 결과값이 여러개인 경우
 
+  ![screenshot-2019-07-28T05-41-18 866Z-bixby-mobile-ko-KR-device-note](https://user-images.githubusercontent.com/38457114/62002911-71695180-b148-11e9-8a62-4525e119cbea.png)
 
 ## 법적 고지
  > 해당 캡슐은 다음과 같은 오픈소스를 포함하고 있습니다.
   * 서울시 공공데이터 포털
   * 서울시 실시간 지하철정보 API
 
-## License
+## CopyRight
+```
+CopyRight 2019 Team Kit
+```
