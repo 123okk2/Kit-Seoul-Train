@@ -1,0 +1,95 @@
+train (t-80nmbsludaaf5d2rsm89v0lja) {
+  utterance ("[g:StationResult] (외대앞)[v:DesStation]까지 가고싶다면 (신금호)[v:ToStation]에서 어떻게 가")
+  plan (Y2BhkM3OLNErTs0vzYkvKUrMzNMLLkksyczPC0otLs0pwZQuTk0sSs6AKmKQQpd2SS2GyUmiy4Xkw6SYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561832460893)
+}
+train (t-82imgigxift1h5vllrxbzhz7e) {
+  utterance ("[g:StationResult] 여기 (춘의역)[v:ToStation]인데 (백석)[v:DesStation]까지 얼마나 걸리지")
+  plan (Y2BhkM3OLNErTs0vzYkvKUrMzNMLLkksyczPC0otLs0pwZQuTk0sSs6AKmKQQpd2SS2GyUmiy4Xkw6SYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561877308287)
+}
+train (t-85bum6svjr0a3o7ustvafvfy3) {
+  utterance ("[g:StationResult] (창신)[v:DesStation]까지 가고싶은데 (세종대왕릉)[v:ToStation]에서 어떻게 갈까")
+  plan (Y2BhkM3OLNErTs0vzYkvKUrMzNMLLkksyczPC0otLs0pwZQuTk0sSs6AKmKQQpd2SS2GyUmiy4Xkw6SYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561829903723)
+}
+train (t-868foh6xwdofv0zs26d6oaatu) {
+  utterance ("[g:StationResult] 지금 (독산)[v:ToStation]인데 (동수)[v:DesStation]까지 얼마나 걸려")
+  plan (Y2BhkM3OLNErTs0vzYkvKUrMzNMLLkksyczPC0otLs0pwZQuTk0sSs6AKmKQQpd2SS2GyUmiy4Xkw6SYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561874614396)
+}
+train (t-87f6jd1tz13mhpvxwqhb3fmsy) {
+  utterance ("[g:StationResult] (사당)[v:DesStation] 갈려면 (대모산)[v:ToStation]에서 어떻게 가지")
+  plan (Y2BhkM3OLNErTs0vzYkvKUrMzNMLLkksyczPC0otLs0pwZQuTk0sSs6AKmKQQpd2SS2GyUmiy4Xkw6SYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561834588358)
+}
+train (t-89uwirbcde39rughqyivoy4g1) {
+  utterance ("[g:StationResult] (보평)[v:ToStation] 출발 (삼성)[v:DesStation] 도착 지하철 있어?")
+  plan (Y2BhkM3OLNErTs0vzYkvKUrMzNMLLkksyczPC0otLs0pwZQuTk0sSs6AKmKQQpd2SS2GyUmiy4Xkw6SYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561791973276)
+}
+train (t-8b3w6gctj1mv7mbhq1vst0l6c) {
+  utterance ("[g:StationResult] (모래내시장)[v:DesStation]까지 가고싶으면 (문산)[v:ToStation]에서 가는방법 가르쳐줘")
+  plan (Y2BhkM3OLNErTs0vzYkvKUrMzNMLLkksyczPC0otLs0pwZQuTk0sSs6AKmKQQpd2SS2GyUmiy4Xkw6SYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561830988234)
+}
+train (t-8bor1kjo9kz0pp4jonhg0reop) {
+  utterance ("[g:StationResult] (수락산)[v:DesStation]까지 가고싶다면 (천왕)[v:ToStation]에서 어떻게 가지")
+  plan (Y2BhkM3OLNErTs0vzYkvKUrMzNMLLkksyczPC0otLs0pwZQuTk0sSs6AKmKQQpd2SS2GyUmiy4Xkw6SYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561832493863)
+}
+train (t-8dm0c09y8y60hz7fpa3kokbmt) {
+  utterance ("[g:StationResult] 여기 (신도림)[v:ToStation]인데 (충무로)[v:DesStation]까지 얼마나 걸림")
+  plan (Y2BhkM3OLNErTs0vzYkvKUrMzNMLLkksyczPC0otLs0pwZQuTk0sSs6AKmKQQpd2SS2GyUmiy4Xkw6SYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561877310921)
+}
+train (t-8h81x1f4fz9e825eq9m5nfbn3) {
+  utterance ("[g:StationResult] (산성)[v:ToStation] 지하철타고 (정자)[v:DesStation]까지 몇분 걸리지")
+  plan (Y2BhkM3OLNErTs0vzYkvKUrMzNMLLkksyczPC0otLs0pwZQuTk0sSs6AKmKQQpd2SS2GyUmiy4Xkw6SYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561879405037)
+}
+train (t-8iayif8y3hrkkoxii2yl5r10g) {
+  utterance ("[g:StationResult] (남춘천)[v:DesStation] 갈려면 (제기동)[v:ToStation]에서 어떻게 가는지 갈켜줘")
+  plan (Y2BhkM3OLNErTs0vzYkvKUrMzNMLLkksyczPC0otLs0pwZQuTk0sSs6AKmKQQpd2SS2GyUmiy4Xkw6SYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561834535172)
+}
+train (t-8k0xa3gwsqani5bk7h9vy2i2q) {
+  utterance ("[g:StationResult] (홍대입구역)[v:ToStation]이랑 (건대입구역)[v:DesStation] 사이 소요시간 알려줘")
+  plan (Y2BhkM3OLNErTs0vzYkvKUrMzNMLLkksyczPC0otLs0pwZQuTk0sSs6AKmKQQpd2SS2GyUmiy4Xkw6SYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561826907954)
+}
+train (t-8lalh03n3z128pefkx0m0tkh1) {
+  utterance ("[g:StationResult] (귤현)[v:DesStation]으로 갈려면 (반월)[v:ToStation]에서 얼마나 걸림")
+  plan (Y2BhkM3OLNErTs0vzYkvKUrMzNMLLkksyczPC0otLs0pwZQuTk0sSs6AKmKQQpd2SS2GyUmiy4Xkw6SYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561834696557)
+}
+train (t-8mfcd1imiqpyn87997xl64jtf) {
+  utterance ("[g:StationResult] 여기 (용마산)[v:ToStation]인데 (답십리)[v:DesStation]까지 가는법 알려줘")
+  plan (Y2BhkM3OLNErTs0vzYkvKUrMzNMLLkksyczPC0otLs0pwZQuTk0sSs6AKmKQQpd2SS2GyUmiy4Xkw6SYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561877560986)
+}
+train (t-8o5prbxikty1v5emiz5pcr7bn) {
+  utterance ("[g:StationResult] (신용산)[v:DesStation]까지 (판교)[v:ToStation]에서 얼마나 걸리지")
+  plan (Y2BhkM3OLNErTs0vzYkvKUrMzNMLLkksyczPC0otLs0pwZQuTk0sSs6AKmKQQpd2SS2GyUmiy4Xkw6SYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561827679478)
+}
+train (t-8q1ptiotx6l9pxkogyxttf8vh) {
+  utterance ("[g:StationResult] (천호)[v:DesStation]까지 가려면 (동작)[v:ToStation]에서 몇분 걸려")
+  plan (Y2BhkM3OLNErTs0vzYkvKUrMzNMLLkksyczPC0otLs0pwZQuTk0sSs6AKmKQQpd2SS2GyUmiy4Xkw6SYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561835226566)
+}
+train (t-8q5wgxwgd6u00mrenirxavdnu) {
+  utterance ("[g:StationResult] (화곡)[v:DesStation]까지 가고싶다면 (도화)[v:ToStation]에서 얼마나 걸릴까")
+  plan (Y2BhkM3OLNErTs0vzYkvKUrMzNMLLkksyczPC0otLs0pwZQuTk0sSs6AKmKQQpd2SS2GyUmiy4Xkw6SYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561832630195)
+}
+train (t-8rteqe3sj4nb7e21u09myz97f) {
+  utterance ("[g:StationResult] (송산)[v:DesStation] (아산)[v:ToStation]에서 몇분 걸릴까")
+  plan (Y2BhkM3OLNErTs0vzYkvKUrMzNMLLkksyczPC0otLs0pwZQuTk0sSs6AKmKQQpd2SS2GyUmiy4Xkw6SYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561827136173)
+}
+train (t-8xwf0t73ilz5v3xk61sb77ape) {
+  utterance ("[g:StationResult] (영통)[v:ToStation] 지하철타고 (수유)[v:DesStation]까지 가는방법 가르쳐줘")
+  plan (Y2BhkM3OLNErTs0vzYkvKUrMzNMLLkksyczPC0otLs0pwZQuTk0sSs6AKmKQQpd2SS2GyUmiy4Xkw6SYGRgZmIAkA5AGQQgA8cGiAA==)
+  last-modified (1561879152571)
+}

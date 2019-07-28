@@ -204,8 +204,8 @@ module.exports = [
 	keyword : ['공릉' ,'서울산업대입구']
 },
 {
-	name : '공지암',
-	keyword : ['공지암']
+	name : '곤지암',
+	keyword : ['곤지암']
 },
 {
 	name : '공항시장',

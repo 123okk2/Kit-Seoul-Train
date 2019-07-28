@@ -1,6 +1,6 @@
 action (selectDesStation) {
   description (select Des Station)
-  type(Calculation)
+  type(Search)
   
   collect {
     input (toResult) {

@@ -2,8 +2,8 @@ result-view {
   match: Result (this)
 
   message {
-    template ("열차 정보입니다."){
-      speech("#{value(this.to)}역 에서 #{value(this.des)}역 까지는 #{value(this.result)}분 소요되며, 가장 빠른 열차는 #{value(this.start[0])}에 도착합니다.")
+    template ("운행 정보입니다."){
+      speech("#{value(this.to)}역 에서 #{value(this.des)}역 까지는 #{value(this.result)}분 소요되며, 가장 빠른 열차는 #{value(this.start[0])}에 출발합니다.")
     }
   }
   

@@ -1,6 +1,6 @@
 action (searchStation) {
   description (searching related station of user's input)
-  type(Calculation)
+  type(Search)
   
   collect {
     input (toStation) {

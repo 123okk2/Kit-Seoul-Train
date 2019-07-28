@@ -1,6 +1,6 @@
 result-view{
   match: ToSelectedResult(result)
-  
+ 
   message(도착역을 선택해주세요)
   
   render{

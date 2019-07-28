@@ -24,4 +24,9 @@ structure (Result)
    type(TimeOutput)
    min (Required) max (One)
   }
+  
+  property (startLine){
+    type(StartLine)
+    min (Required) max (One)
+  }
 }

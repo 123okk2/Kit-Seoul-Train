@@ -3,7 +3,7 @@ result-view{
   
   message(출발역을 선택해주세요)
   
-  render{
+  render{   
     layout{
       section{
         content{

@@ -51,7 +51,7 @@ layout-macro-def (result_details) {
               single-line {
                         text {
                           style(Detail_L)
-                      value ("#{value(info.to)}역 열차도착시간은 #{value(info.start[0])}입니다.")
+                      value ("#{value(info.to)}역 열차출발 시간은 #{value(info.start[0])}입니다.")
 
                   }
               }
@@ -59,43 +59,13 @@ layout-macro-def (result_details) {
           }
             }
           }
-          hbox{
-            content{
-              vbox {
-
-          content {
-              single-line {
-                        text {
-
-                      value ("\n")
-
-                  }
-              }
-          }
-          }
-            }
-          }
-          hbox{
-            content{
-              vbox {
-          content {
-              single-line {
-                        text {
-
-                      value ("\n")
-
-                  }
-              }
-          }
-          }
-            }
-          }
+          
           cell-area{
 
             slot2{
               content{
                 order(SecondaryPrimary)
-                secondary("#{value(info.to)}역 출발시간")
+              secondary("#{value(info.to)}역 출발시간 (#{value(info.startLine)})")
               }
             }
           }
